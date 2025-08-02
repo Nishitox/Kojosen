@@ -1,0 +1,3 @@
+execute if score #timer_m kjs.control matches 1..59 if score #timer_s kjs.control matches 1..59 run title @a actionbar ["", {"interpret":true, "nbt":"actionbar.countdown.ms", "storage":"kjs:message"}]
+execute if score #timer_m kjs.control matches 1..59 if score #timer_s kjs.control matches 0..00 run title @a actionbar ["", {"interpret":true, "nbt":"actionbar.countdown.m",  "storage":"kjs:message"}]
+execute if score #timer_m kjs.control matches 0..00 if score #timer_s kjs.control matches 1..59 run title @a actionbar ["", {"interpret":true, "nbt":"actionbar.countdown.s",  "storage":"kjs:message"}]

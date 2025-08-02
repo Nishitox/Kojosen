@@ -1,0 +1,4 @@
+tellraw @a[team=blue] ["",   {"interpret":true, "nbt":"tellraw.label.notice", "storage":"kjs:message"}, {"interpret":true, "nbt":"common.joined_to_team.blue",   "storage":"kjs:message"},{"text":"\n"}]
+tellraw @a[team=green] ["",  {"interpret":true, "nbt":"tellraw.label.notice", "storage":"kjs:message"}, {"interpret":true, "nbt":"common.joined_to_team.green",  "storage":"kjs:message"},{"text":"\n"}]
+tellraw @a[team=red] ["",    {"interpret":true, "nbt":"tellraw.label.notice", "storage":"kjs:message"}, {"interpret":true, "nbt":"common.joined_to_team.red",    "storage":"kjs:message"},{"text":"\n"}]
+tellraw @a[team=yellow] ["", {"interpret":true, "nbt":"tellraw.label.notice", "storage":"kjs:message"}, {"interpret":true, "nbt":"common.joined_to_team.yellow", "storage":"kjs:message"},{"text":"\n"}]

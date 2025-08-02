@@ -1,0 +1,6 @@
+function kjs:score/store/number_of_team_players
+title @a times 0 100 20
+execute if data storage kjs:team {number_of_enabled_teams: 1} run title @a title ["",{"interpret":true, "nbt":"assembled_title[0]","storage":"kjs:message"}]
+execute if data storage kjs:team {number_of_enabled_teams: 2} run title @a title ["",{"interpret":true, "nbt":"assembled_title[0]","storage":"kjs:message"},{"text":" - "},{"interpret":true, "nbt":"assembled_title[1]","storage":"kjs:message"}]
+execute if data storage kjs:team {number_of_enabled_teams: 3} run title @a title ["",{"interpret":true, "nbt":"assembled_title[0]","storage":"kjs:message"},{"text":" - "},{"interpret":true, "nbt":"assembled_title[1]","storage":"kjs:message"},{"text":" - "},{"interpret":true, "nbt":"assembled_title[2]","storage":"kjs:message"}]
+execute if data storage kjs:team {number_of_enabled_teams: 4} run title @a title ["",{"interpret":true, "nbt":"assembled_title[0]","storage":"kjs:message"},{"text":" - "},{"interpret":true, "nbt":"assembled_title[1]","storage":"kjs:message"},{"text":" - "},{"interpret":true, "nbt":"assembled_title[2]","storage":"kjs:message"},{"text":" - "},{"interpret":true, "nbt":"assembled_title[3]","storage":"kjs:message"}]
